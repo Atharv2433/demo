@@ -40,7 +40,7 @@ pipeline {
             }
         }
         
-        /*
+        
 
         stage("Quality Gate") {
             steps {
@@ -49,6 +49,8 @@ pipeline {
                 }	
             }
         }
+        
+        /*
 
         stage("Build & Push Docker Image") {
             steps {
